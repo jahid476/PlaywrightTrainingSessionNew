@@ -1,0 +1,10 @@
+#Python virtual files
+venv
+.venv/
+
+#Python chache
+__pycache__/
+*.pyc
+
+#Pyetst Cache
+*.pytets_cache

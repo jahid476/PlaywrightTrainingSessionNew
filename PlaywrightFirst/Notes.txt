@@ -1,0 +1,23 @@
+Setup Virtual Environment:-
+1. Create Virtual Environment
+ 	python -m venv .venv
+2. Run Execution Policy if you are working on remote machine
+	Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+3. Activate Virtual Environment
+	.venv\Scripts\activate
+4. Install Playwrignt in virtual environment
+	 pip install pytest-playwright
+5. Install Browsers
+	playwright install
+
+Topics Covered:-
+1. Setting up playwright project in VS Covered
+2. Playwright inbuilt locators
+3. Playwright default wait time is 30 second
+4. Working with different types of locators (test_locatorsdemo.py)
+5. Handling enabled and diasabled date pickers
+6. Handling popup modals
+7. Handling Alerts
+8. Handling Multiple Tab or Multiple Window(handling process is same for both) using expect_popup(test_handlingmultipletabs.py)
+9. handling multiple windows by storing all_pages in a avariable and using for loop switching to the required window(test_handlingmultiplewindows.py)
+
